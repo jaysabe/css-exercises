@@ -1,0 +1,15 @@
+/* Practicing Group Selectors */
+.btn.on
+.btn.off {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+.btn.on {
+    background-color: black;
+    color: white;
+}
+
+.btn.off {
+    background-color: yellow;
+}
