@@ -8,20 +8,15 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+.para.small-para {
+  /* small para is child so add parent class */
   font-size: 14px;
-  font-weight: 800;
+  /* font-weight: 800; -duplicate writing */ 
 }
 
 .para {
   font-size: 22px;
 }
-
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,14 +24,27 @@ body {
   font-size: 20px;
 }
 
+#confirm-button { 
+  /* Changed location */
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+
+.text,
 .child {
   color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
+.text {
+/* removed div.text / placed parent in front of .child */
   font-size: 22px;
   font-weight: 100;
+}
+
+.child {
+  /* color: rgb(0, 0, 0);  --duplicate writing*/
+  font-size: 14px;
+  font-weight: 800;
 }
